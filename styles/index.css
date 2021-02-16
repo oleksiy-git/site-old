@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Telex", sans-serif;
+  /* font-family: "Telex", sans-serif; */
+  font-family: "Roboto Mono", monospace;
+  /* font-family: "DM Mono", monospace; */
+  /* font-family: "Oxygen Mono", monospace; */
 }
 body {
   background-color: black;
@@ -24,7 +27,7 @@ a {
   height: 100vh;
   display: flex;
   color: #00ffe5;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .main {
   background-color: #004164;
