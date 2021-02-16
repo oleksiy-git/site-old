@@ -32,9 +32,9 @@ a {
 .main {
   background-color: #004164;
   flex-basis: 80%;
-  align-items: center;
+  /* align-items: center; */
   margin: auto;
-  height: 95vh;
+  height: 90vh;
   padding: 15px;
   display: flex;
   min-width: 1050px;
@@ -62,7 +62,7 @@ a {
   background-color: #008080;
   color: black;
   width: fit-content;
-  padding: 5px 10px;
+  padding: 5px 12px;
   position: relative;
   top: -20px;
   margin-left: auto;
@@ -71,7 +71,7 @@ a {
 .top-nav-quick-view {
   background-color: #004164;
   width: fit-content;
-  padding: 5px 10px;
+  padding: 5px 12px;
   position: relative;
   top: -20px;
   margin-left: auto;
