@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Telex", sans-serif;
+}
+body {
+  background-color: black;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #00ffe5;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  color: #00ffe5;
+  font-size: 1.4rem;
+}
+.main {
+  background-color: #004164;
+  flex-basis: 80%;
+  align-items: center;
+  margin: auto;
+  height: 95vh;
+  padding: 20px;
+  display: flex;
+  min-width: 640px;
+  min-height: 480px;
+}
+.left-side {
+  border-color: #00ffe5;
+  border-width: 5px;
+  border-style: double;
+  flex-basis: 50%;
+  height: 100%;
+  background-color: #004164;
+  margin-right: 5px;
+}
+.new {
+  display: flex;
+}
+.right-side {
+  border-color: #00ffe5;
+  border-width: 5px;
+  border-style: double;
+  flex-basis: 50%;
+  height: 100%;
+  background-color: #004164;
+  margin-left: 5px;
+}
+.top-nav-path {
+  background-color: #008080;
+  color: black;
+  width: fit-content;
+  padding: 5px 10px;
+  position: relative;
+  top: -18px;
+  margin-left: auto;
+  margin-right: auto;
+  /* font-size: 1.2rem; */
+}
+.top-nav-quick-view {
+  background-color: #004164;
+  width: fit-content;
+  padding: 5px 10px;
+  position: relative;
+  top: -18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right-output {
+  background-color: #004164;
+  margin: 10px;
+  line-height: 2rem;
+  /* font-size: 1.2rem; */
+}
+.file-name-container {
+  width: 50%;
+  border-right: #00ffe5;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  height: 90%;
+  /* background-color: aliceblue; */
+}
+.file-size-container {
+  width: 25%;
+  border-right: #00ffe5;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  height: 90%;
+  /* background-color: aliceblue; */
+}
+.file-date-container {
+  width: 25%;
+  height: 90%;
+}
+.header-label {
+  color: #ffff11;
+  text-align: center;
+  margin-bottom: 15px;
+}
+li {
+  list-style-type: none;
+  line-height: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.active-file {
+  background-color: #008080;
+  color: black;
+  padding: 0 5px;
+}
+.non-active-file {
+  padding: 0 5px;
+}
+.exe {
+  color: #87c576;
+}
