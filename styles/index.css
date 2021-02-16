@@ -45,7 +45,6 @@ a {
   border-style: double;
   flex-basis: 50%;
   height: 100%;
-  /* background-color: #004164; */
   margin-right: 5px;
 }
 .new {
@@ -57,7 +56,6 @@ a {
   border-style: double;
   flex-basis: 50%;
   height: 100%;
-  /* background-color: #004164; */
   margin-left: 5px;
 }
 .top-nav-path {
@@ -69,7 +67,6 @@ a {
   top: -20px;
   margin-left: auto;
   margin-right: auto;
-  /* font-size: 1.2rem; */
 }
 .top-nav-quick-view {
   background-color: #004164;
@@ -84,7 +81,6 @@ a {
   background-color: #004164;
   margin: 10px;
   line-height: 2rem;
-  /* font-size: 1.2rem; */
 }
 .file-name-container {
   width: 50%;
@@ -92,7 +88,6 @@ a {
   border-width: 0 2px 0 0;
   border-style: solid;
   height: 90%;
-  /* background-color: aliceblue; */
 }
 .file-size-container {
   width: 25%;
@@ -100,7 +95,6 @@ a {
   border-width: 0 2px 0 0;
   border-style: solid;
   height: 90%;
-  /* background-color: aliceblue; */
 }
 .file-date-container {
   width: 25%;
